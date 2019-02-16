@@ -1,0 +1,31 @@
+body {
+    width: 600px; /*total width of body is 600 */
+    margin: 0 auto;/*1st value affect top/bot. 2nd value affects right/left*/
+    background-color: tan;
+    padding: 0 20px 20px 20px; /*top,right,bot,left*/
+    border: 5px solid black; /*creates border around body*/
+}
+html {
+    font-family: Calbri;
+    background-color: #00539f;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin:0;
+    padding:20px 0; /*top/bot padding is 20px.  */
+    text-shadow: 3px 3px 1px gray;/*horiz offeset, vert offset, blur radius, color */
+}
+
+img {
+    display:block; /*img is inline element. cant apply margins. give img block lvl 
+    behaivor to apply margins to it */
+    margin:0 auto;/*top/bot margin 0, left/right margin auto */
+}
+
+p, li {
+    font-size:20px;
+    line-height:2; 
+    letter-spacing: 1px;
+}
